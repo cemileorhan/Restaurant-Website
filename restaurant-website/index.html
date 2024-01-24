@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.4.0/css/lightgallery.min.css"/>
+
+    <title>Restaurant</title>
+</head>
+<body>
+    <!--header-->
+    <div id="prenav-text">
+       <div class="flex-row">
+            <div class="contact-info">Phone no: <span>+00 1234 567</span> or email us: <span>solorestaurant@email.com</span></div>
+            <div class="opening-times flex-row">
+                Mon-Fri / 9:00-23:00. Sat-Sun / 11:00-21:00
+                <ul class="social-links flex-row">
+                    <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-pinterest"></i></a></li>
+                </ul>
+            </div>
+       </div> 
+    </div>
+
+    <div id="navbar" class="navbar flex-row">
+
+        <div class="nav-icon menu-btn-wrapper">
+            <i id="menu-btn" class="menu-btn bx bx-menu"></i>
+        </div>
+
+        <div class="logo">
+            <h5>So. <span>Lo</span></h5>
+        </div>
+
+        <ul id="nav-items" class="nav-items">
+            <li><a href="#home" class="nav-links">HOME</a></li>
+            <li><a href="#about" class="nav-links">ABOUT</a></li>
+            <li><a href="#menu" class="nav-links">MENU</a></li>
+            <li><a href="#reservation" class="nav-links">RESERVATION</a></li>
+            <li><a href="#gallery" class="nav-links">GALLERY</a></li>
+            <li><a href="#blog" class="nav-links">BLOG</a></li>
+            <li><a href="#contact" class="nav-links">CONTACT</a></li>
+        </ul>
+
+        <ul class="nav-btns">
+            <div class="search-btn-wrapper nav-icon">
+                <i class="searchbtn bx bx-search-alt-2"></i>
+                <div id="search-form" class="search-form">
+                    <form action="#">
+                        <input type="search" class="search-data" placeholder="Search" required>
+                        <button type="submit" class="bx bx-search-alt-2"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="cart-btn-wrapper nav-icon">
+                <i class="cartbtn bx bx-cart"></i>
+                <div id="cart" class="cart flex-row">
+                    <span>No Products In The Cart</span>
+                </div>
+            </div>
+            <div class="nav-icon">
+                <i class="darkbtn bx bx-moon"></i>
+            </div>
+        </ul>
+    </div>
+
+    <!--header end-->
+
+    <!--home-->
+    <section id="home">
+        <div class="home-carousel owl-carousel owl-theme">
+            <div class="slide slide1">
+                <div class="content">
+                    <p class="sub-heading">SO.LO RESTAURANT</p>
+                    <h1 class="heading">Best Quality</h1>
+                    <p class="sub-heading-2">FOOD</p>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="content">
+                    <p class="sub-heading">SO.LO RESTAURANT</p>
+                    <h1 class="heading">Cooking Since</h1>
+                    <p class="sub-heading-2">1931</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home end-->
+
+    <!--about-->
+    <section id="about" class="flex-row">
+        <div class="booking-form" data-aos="fade-right" data-aos-duration="1000">
+            <span>Take A</span>
+            <h2>RESERVATION</h2>
+            <form action="#">
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="phone" placeholder="Phone">
+                <input type="date" name="date" placeholder="Date">
+                <input type="time" name="time" placeholder="Time">
+                <textarea name="msg" id="msg">Message</textarea>
+                <a href="#" type="submit" class="btn1">Book A Table</a>
+            </form>
+        </div>
+        <div class="text-wrapper" data-aos="fade-left" data-aos-duration="1000">
+            <h1>MARK WILLY</h1>
+            <h3>Head Chef</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit. Quis, expedita provident.</p>
+            <div class="sign">
+                <img id="signImg" src="images/chef-sign.png" alt="#">
+            </div>
+        </div>
+        <div class="img-wrapper" data-aos="fade-left" data-aos-duration="1000">
+            <img src="images/chef-about.png" alt="#">
+        </div>
+    </section>
+    <!--about end-->
+
+    <!--quote section-->
+    <section id="quote">
+        <div class="text-wrapper">
+            <h2>Now Booking</h2>
+            <h1>Private Dinners & Happy Hours</h1>
+        </div>
+    </section>
+    <!--quote section end-->
+
+    <!--menu-->
+    <section id="menu" class="menu-section">
+        <div class="section-heading">
+            <h3>Special Selections</h3>
+            <h1>Form Our Menu</h1>
+            <div class="square-wrapper flex-row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+        </div>
+
+        <!--menu nav-->
+        <div class="menu-tabs flex-row" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+            <div class="menu-tab-item active" data-target="#main-dishes">
+                <i class="bx bxs-bowl-hot"></i>
+                <span>Main Dishes</span>
+            </div>
+            <div class="menu-tab-item" data-target="#starters">
+                <i class="bx bx-restaurant"></i>
+                <span>Starters</span>
+            </div>
+            <div class="menu-tab-item" data-target="#desserts">
+                <i class="bx bxs-popsicle"></i>
+                <span>Desserts</span>
+            </div>
+            <div class="menu-tab-item" data-target="#drinks">
+                <i class="bx bxs-drink"></i>
+                <span>Drinks</span>
+            </div>
+        </div>
+
+        <!--main dishes-->
+        <div id="main-dishes" class="menu-tab-content show" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/main-dishes.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Main Dish Item</h2>
+                            <div class="line"></div>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/main-dishes2.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Main Dish Item</h2>
+                            <div class="line"></div>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/main-dishes3.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Main Dish Item</h2>
+                            <div class="line"></div>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/main-dishes4.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Main Dish Item</h2>
+                            <div class="line"></div>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/main-dishes5.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Main Dish Item</h2>
+                            <div class="line"></div>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/main-dishes6.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Main Dish Item</h2>
+                            <div class="line"></div>
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--starters-->
+        <div id="starters" class="menu-tab-content">
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/starters.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Starter Item</h2>
+                            <div class="line"></div>
+                            <span class="price">15$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/starters2.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Starter Item</h2>
+                            <div class="line"></div>
+                            <span class="price">15$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/starters3.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Starter Item</h2>
+                            <div class="line"></div>
+                            <span class="price">15$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/starters4.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Starter Item</h2>
+                            <div class="line"></div>
+                            <span class="price">15$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/starters5.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Starter Item</h2>
+                            <div class="line"></div>
+                            <span class="price">15$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/starters6.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Starter Item</h2>
+                            <div class="line"></div>
+                            <span class="price">15$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--desserts-->
+        <div id="desserts" class="menu-tab-content">
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/desserts.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Dessert Item</h2>
+                            <div class="line"></div>
+                            <span class="price">30$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/desserts2.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Dessert Item</h2>
+                            <div class="line"></div>
+                            <span class="price">30$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/desserts3.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Dessert Item</h2>
+                            <div class="line"></div>
+                            <span class="price">30$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/desserts4.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Dessert Item</h2>
+                            <div class="line"></div>
+                            <span class="price">30$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/desserts5.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Dessert Item</h2>
+                            <div class="line"></div>
+                            <span class="price">30$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/desserts6.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Dessert Item</h2>
+                            <div class="line"></div>
+                            <span class="price">30$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--drinks-->
+        <div id="drinks" class="menu-tab-content">
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/drinks.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Drink Item</h2>
+                            <div class="line"></div>
+                            <span class="price">29$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/drinks2.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Drink Item</h2>
+                            <div class="line"></div>
+                            <span class="price">29$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/drinks3.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Drink Item</h2>
+                            <div class="line"></div>
+                            <span class="price">29$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/drinks4.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Drink Item</h2>
+                            <div class="line"></div>
+                            <span class="price">29$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/drinks5.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Drink Item</h2>
+                            <div class="line"></div>
+                            <span class="price">29$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-inner">
+                    <div class="food-img">
+                        <img src="images/drinks6.jpg" alt="#">
+                    </div>
+                    <div class="text">
+                        <div class="dish-details">
+                            <h2>Drink Item</h2>
+                            <div class="line"></div>
+                            <span class="price">29$</span>
+                        </div>
+                        <div class="desc">
+                            <p>Searsoned and handcarves to order.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-wrapper">
+            <a href="#" class="btn2">View Full Menu</a>
+        </div>
+
+        <!--menu nav end-->
+    </section>
+    <!--menu end-->
+
+    <!--event start-->
+    <section id="events">
+        <div class="section-heading">
+            <h1>Events</h1>
+            <div class="square-wrapper flex-row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+        </div>
+
+        <div class="events-carousel owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1000">
+            <a href="#" class="event-item">
+                <h4 class="event-name">Independence Day</h4>
+                <span class="details"><i class="icon bx bx-calendar"></i>2023-01-01</span>
+                <span class="details"><i class="icon bx bx-time-five"></i>08:00</span>
+                <span class="details"><i class="icon bx bx-location-plus"></i>Bay Town, Citadel, Australia</span>
+                <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quia laborum quidem iste quaerat quam earum odio maiores unde ducimus?</p>
+                <div class="event-mark"></div>
+            </a>
+            <a href="#" class="event-item">
+                <h4 class="event-name">Christmas Day</h4>
+                <span class="details"><i class="icon bx bx-calendar"></i>2024-01-01</span>
+                <span class="details"><i class="icon bx bx-time-five"></i>05:45</span>
+                <span class="details"><i class="icon bx bx-location-plus"></i>Bay Town, Citadel, Australia</span>
+                <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quia laborum quidem iste quaerat quam earum odio maiores unde ducimus?</p>
+                <div class="event-mark"></div>
+            </a>
+            <a href="#" class="event-item">
+                <h4 class="event-name">Halloween Party</h4>
+                <span class="details"><i class="icon bx bx-calendar"></i>2025-01-01</span>
+                <span class="details"><i class="icon bx bx-time-five"></i>13:30</span>
+                <span class="details"><i class="icon bx bx-location-plus"></i>Bay Town, Citadel, Australia</span>
+                <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quia laborum quidem iste quaerat quam earum odio maiores unde ducimus?</p>
+                <div class="event-mark"></div>
+            </a>
+        </div>
+    </section>
+    <!--event end-->
+
+    <!--gallery-->
+    <section id="gallery">
+        <div class="section-heading">
+            <h3>Our Gallery</h3>
+            <h1>Our Untold Storied</h1>
+            <div class="square-wrapper flex-row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+        </div>
+
+        <div class="gallery-wrapper flex-row" data-aos="fade-right" data-aos-duration="1000">
+
+            <a href="images/gallery-1.jpg" class="gallery-img">
+                <img src="images/gallery-1.jpg" alt="#">
+                <div class="overlay">
+                    <i class="icon bx bx-search"></i>
+                </div>
+            </a>
+            <a href="images/gallery-2.jpg" class="gallery-img">
+                <img src="images/gallery-2.jpg" alt="#">
+                <div class="overlay">
+                    <i class="icon bx bx-search"></i>
+                </div>
+            </a>
+            <a href="images/gallery-3.jpg" class="gallery-img">
+                <img src="images/gallery-3.jpg" alt="#">
+                <div class="overlay">
+                    <i class="icon bx bx-search"></i>
+                </div>
+            </a>
+            <a href="images/gallery-4.jpg" class="gallery-img">
+                <img src="images/gallery-4.jpg" alt="#">
+                <div class="overlay">
+                    <i class="icon bx bx-search"></i>
+                </div>
+            </a>
+            <a href="images/gallery-5.jpg" class="gallery-img">
+                <img src="images/gallery-5.jpg" alt="#">
+                <div class="overlay">
+                    <i class="icon bx bx-search"></i>
+                </div>
+            </a>
+            <a href="images/gallery-6.jpg" class="gallery-img">
+                <img src="images/gallery-6.jpg" alt="#">
+                <div class="overlay">
+                    <i class="icon bx bx-search"></i>
+                </div>
+            </a>
+            
+
+        </div>
+    </section>
+    <!--gallery end-->
+
+    <!--team-->
+    <section id="team">
+        <div class="section-heading">
+            <h3>Team Of Restaurant</h3>
+            <h1>Meet Our Professionals</h1>
+            <div class="square-wrapper flex-row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+        </div>
+
+        <div class="team-carousel owl-carousel owl-theme" data-aos="fade-right" data-aos-duration="1000">
+            <div class="team-card">
+                <div class="img-wrapper">
+                    <img src="images/chef-1.jpg" alt="#">
+                </div>
+                <div class="text-wrapper">
+                    <h4 class="name">Daniela Frankie</h4>
+                    <h5 class="desc">French Cuisine</h5>
+                </div>
+                <ul class="social-links flex-col">
+                    <li>
+                        <a href="#" class="icon bx bxl-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="team-card">
+                <div class="img-wrapper">
+                    <img src="images/chef-2.jpg" alt="#">
+                </div>
+                <div class="text-wrapper">
+                    <h4 class="name">Celene Dean</h4>
+                    <h5 class="desc">Chinese Cuisine</h5>
+                </div>
+                <ul class="social-links flex-col">
+                    <li>
+                        <a href="#" class="icon bx bxl-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="team-card">
+                <div class="img-wrapper">
+                    <img src="images/chef-3.jpg" alt="#">
+                </div>
+                <div class="text-wrapper">
+                    <h4 class="name">Sage Heal</h4>
+                    <h5 class="desc">Turkish Cuisine</h5>
+                </div>
+                <ul class="social-links flex-col">
+                    <li>
+                        <a href="#" class="icon bx bxl-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="team-card">
+                <div class="img-wrapper">
+                    <img src="images/chef-4.jpg" alt="#">
+                </div>
+                <div class="text-wrapper">
+                    <h4 class="name">John Phoenix</h4>
+                    <h5 class="desc">Italian Cuisine</h5>
+                </div>
+                <ul class="social-links flex-col">
+                    <li>
+                        <a href="#" class="icon bx bxl-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon bx bxl-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--team end-->
+
+    <!--reviews-->
+    <section id="reviews">
+
+        <div class="section-heading">
+            <h3>Testimonials</h3>
+            <h1>What Clients Say</h1>
+            <div class="square-wrapper flex-row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+        </div>
+
+        <div class="review-carousel owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1000">
+            <div class="review-item">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="images/review-1.jpg" alt="#">
+                    </div>
+                    <div class="text-holder">
+                        <h4 class="name">Reyna Queen</h4>
+                        <h5 class="desc">CEO Kingfisher</h5>
+                    </div>
+                </div>
+                <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque unde vitae quis?</p>
+                <div class="rating">
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="review-item">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="images/review-2.jpg" alt="#">
+                    </div>
+                    <div class="text-holder">
+                        <h4 class="name">William Richard</h4>
+                        <h5 class="desc">Food Specialist</h5>
+                    </div>
+                </div>
+                <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque unde vitae quis?</p>
+                <div class="rating">
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="review-item">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="images/review-3.jpg" alt="#">
+                    </div>
+                    <div class="text-holder">
+                        <h4 class="name">Helena Rother</h4>
+                        <h5 class="desc">CEO Getforce</h5>
+                    </div>
+                </div>
+                <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque unde vitae quis?</p>
+                <div class="rating">
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                </div>
+            </div>
+            <div class="review-item">
+                <div class="container">
+                    <div class="img-box">
+                        <img src="images/review-4.jpg" alt="#">
+                    </div>
+                    <div class="text-holder">
+                        <h4 class="name">Jake Brooklyn</h4>
+                        <h5 class="desc">CEO Kingfisher</h5>
+                    </div>
+                </div>
+                <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque unde vitae quis?</p>
+                <div class="rating">
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                    <i class="icon bx bxs-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--reviews end-->
+
+    <!--blogs-->
+    <section id="blogs">
+
+        <div class="section-heading">
+            <h3>Our Recipe</h3>
+            <h1>Chef's Recommended</h1>
+            <div class="square-wrapper flex-row">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+        </div>
+
+        <div class="blog-carousel owl-carousel owl-theme" data-aos="fade-right" data-aos-duration="1000">
+            <a href="#" class="blog-post">
+                <div class="img-wrapper">
+                    <img src="images/blog-1.jpg" alt="#">
+                    <div class="overlay"><i class="icon bx bx-link"></i></div>
+                </div>
+                <div class="text-wrapper">
+                    <h5 class="blog-title">Muesli with Berries and Yogurt</h5>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p class="time"><i class="icon bx bx-time-five"></i>Time: <span>10min</span></p>
+                </div>
+            </a>
+            <a href="#" class="blog-post">
+                <div class="img-wrapper">
+                    <img src="images/blog-2.jpg" alt="#">
+                    <div class="overlay"><i class="icon bx bx-link"></i></div>
+                </div>
+                <div class="text-wrapper">
+                    <h5 class="blog-title">Vegan Noodles with Tofu and Vegetables</h5>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p class="time"><i class="icon bx bx-time-five"></i>Time: <span>30min</span></p>
+                </div>
+            </a>
+            <a href="#" class="blog-post">
+                <div class="img-wrapper">
+                    <img src="images/blog-3.jpg" alt="#">
+                    <div class="overlay"><i class="icon bx bx-link"></i></div>
+                </div>
+                <div class="text-wrapper">
+                    <h5 class="blog-title">Pasta Spaghetti with Shrimps and Sauce</h5>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p class="time"><i class="icon bx bx-time-five"></i>Time: <span>35min</span></p>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    <!--blogs end-->
+
+    <!--footer-->
+    <section class="footer-quote flex-col">
+        <h1>We Make Delicious & Nutricious Food</h1>
+        <a href="#" class="btn3">Book A Table Now</a>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-top flex-row">
+            <div class="flex-col">
+                <h4 class="logo-name">SO.LO</h4>
+                <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veniam quisquam harum.</p>
+                <ul class="social-links">
+                    <li><a href="#"><i class="icon bx bxl-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon bx bxl-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="flex-col">
+                <h4 class="heading">ADDRESS</h4>
+                <p class="desc">Bd de Parc<br>77700 Coupvray, France</p>
+                <p class="desc">P: +00 1234 567 <br>E: solorestaurant@email.com</p>
+                
+            </div>
+            <div class="flex-col">
+                <h4 class="heading">OPEN HOURS</h4>
+                <ul class="timings flex-col">
+                    <li>
+                        <p class="days">Monday</p>
+                        <div class="time">9:00-23:00</div>
+                    </li>
+                    <li>
+                        <p class="days">Tuesday</p>
+                        <div class="time">9:00-23:00</div>
+                    </li>
+                    <li>
+                        <p class="days">Wednesday</p>
+                        <div class="time">9:00-23:00</div>
+                    </li>
+                    <li>
+                        <p class="days">Thursday</p>
+                        <div class="time">9:00-23:00</div>
+                    </li>
+                    <li>
+                        <p class="days">Friday</p>
+                        <div class="time">9:00-23:00</div>
+                    </li>
+                    <li>
+                        <p class="days">Saturday</p>
+                        <div class="time">11:00-21:00</div>
+                    </li>
+                    <li>
+                        <p class="days">Sunday</p>
+                        <div class="time">11:00-21:00</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-col">
+                <h4 class="heading">MORE INFO</h4>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#about">Reservation</a>
+                <a href="#blogs">Blogs</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom flex-row">
+            <span>Created by Cemile Orhan | All Rights Reserved</span>
+        </div>
+    </footer>
+    <!--footer end-->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery-wrapper'));
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
